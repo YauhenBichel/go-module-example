@@ -9,3 +9,7 @@ To do that, use the go mod edit command to edit the example.com/hello module to 
 
 From the command prompt in the hello directory, run the following command:
 $ go mod edit -replace yauhen.example.com/greetings=../greetings
+
+3. Ending a file's name with _test.go tells the go test command that this file contains test functions.
+   >go test
+
